@@ -1,0 +1,21 @@
+{
+    "name": "hlock",
+    "description": "Location-based human clock",
+    "version": "0.0.1",
+    "author": "Martin Gonzalez",
+    "dependencies": {
+        "express": "*",
+        "body-parser": "*",
+        "jfs": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "supertest": "*"
+    },
+    "scripts": {
+        "start": "node start.js",
+        "test": "mocha"
+    },
+    "readme": "README.md"
+}
